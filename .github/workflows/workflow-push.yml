@@ -1,0 +1,15 @@
+name: Workflow lors d'un push
+on: push
+jobs:
+  mon_job:
+    name: Build teste et run mon app
+    runs-on: ubuntu-latest
+    steps:
+      - name: installation des node_modules
+        run: npm ci
+      - name: build
+        run: npm run build
+      - name: test
+        run: npm run test
+      - name: start
+        run: npm run start
