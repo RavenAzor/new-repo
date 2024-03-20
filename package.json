@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Je teste mon app",
+    "test": "echo Je teste mon app",
     "start": "node index.js",
-    "build": "echo \"Je build mon app"
+    "build": "echo Je build mon app"
   },
   "author": "",
   "license": "ISC",
