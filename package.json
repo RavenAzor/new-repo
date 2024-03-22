@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Je teste mon app\"",
+    "test": "echo \"Les tests ont échoué :(\" && exit 1",
+    "test": "echo \"Les tests passent\"",
     "start": "node index.js",
     "build": "echo \"Je build mon app\""
   },
